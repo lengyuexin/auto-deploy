@@ -30,14 +30,6 @@
 1. node-ssh 实现远程服务器的连接，远程命令执行
 2. archiver 实现文件压缩
 3. inquirer 命令行交互界面
-4. 依赖安装
-
-```
-npm i node-ssh 
-npm i archiver 
-npm i inquirer 
-
-```
 
 ### 目录结构划分
 
