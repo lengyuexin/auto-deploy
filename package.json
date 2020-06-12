@@ -1,8 +1,8 @@
 {
-  "name": "my-auto-deploy",
+  "name": "auto-deploy",
   "version": "1.0.0",
-  "description": "auto deploy web-app to serve",
-  "main": "app.js",
+  "description": "auto-deploy ",
+  "main": "main.js",
   "dependencies": {
     "archiver": "^3.1.1",
     "inquirer": "^7.0.3",
@@ -14,12 +14,6 @@
   "scripts": {
     "deploy": "node main.js && rimraf ./lib.zip && rimraf ./dist.zip"
   },
-  "keywords": [
-    "node",
-    "front-end",
-    "auto-deploy",
-    "web"
-  ],
-  "author": "打酱油",
+  "author": "lengyuexin",
   "license": "MIT"
 }
